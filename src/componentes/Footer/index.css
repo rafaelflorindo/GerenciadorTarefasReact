@@ -1,0 +1,72 @@
+/*footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: silver;
+}
+
+footer .colegio{
+    background-color: red;
+    width: 50%;
+    height: 150px;
+}
+
+footer .colegio .nomeColegio{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer .desenvolvedor{
+    background-color: blue;
+    width: 50%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .desenvolvedor .nomeDesenvolvedor{
+    font-weight: 500;
+    font-size: 20px;
+}
+*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* Distribui as duas áreas nas pontas */
+    width: 100%;
+    min-height: 100px;
+    background-color: #333; /* Mesma cor de fundo escura do menu */
+    color: #fff; /* Texto em branco */
+    padding: 0 30px; /* Margem interna nas laterais */
+    box-sizing: border-box;
+}
+
+footer .colegio {
+    display: flex;
+    align-items: center;
+}
+
+footer .colegio .nomeColegio {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+footer .desenvolvedor {
+    display: flex;
+    align-items: center;
+}
+
+footer .desenvolvedor .nomeDesenvolvedor {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
