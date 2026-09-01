@@ -22,6 +22,7 @@ main {
   
   section {
     margin-top: 40px;
+    margin-bottom: 40px;
   }
   
   .boxfotoPerfil {
@@ -96,4 +97,22 @@ main {
     font-size: 0.95rem;
     line-height: 1.6;
     color: #4a5568;
+  }
+
+
+  .linkedinLink {
+    display: inline-block;
+    margin-top: -5px;
+    padding: 6px 16px;
+    background-color: #0077b5;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    
+  }
+  
+  .linkedinLink:hover {
+    background-color: #005582;
   }

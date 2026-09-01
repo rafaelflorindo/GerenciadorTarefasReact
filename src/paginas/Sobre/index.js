@@ -14,6 +14,15 @@ function Sobre() {
                 <div className='boxfotoPerfil'>
                     <img className="imgfotoPerfil" src={fotoPerfil} />
                     <p>Rafael Florindo</p>
+          
+                    <a 
+                        href="https://www.linkedin.com/in/rafaelflorindo" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="linkedinLink"
+                    >
+                        LinkedIn
+                    </a>
                 </div>
                 <div className='habilidades'>
                     <article>

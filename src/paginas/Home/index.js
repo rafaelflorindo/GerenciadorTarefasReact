@@ -1,10 +1,16 @@
 import './index.css'
+import ListarTarefas from './ListarTarefas';
 
 function Home() {
     return (
-        <section>
+        <main>
+            <header>
             <h1>Home</h1>
-        </section>
+            </header>
+            <section>
+                <ListarTarefas />
+            </section>
+        </main>
     )
 }
 

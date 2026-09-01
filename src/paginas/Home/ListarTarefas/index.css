@@ -1,0 +1,84 @@
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #2d3748;
+  }
+  
+  header {
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 2px solid #800606;
+    display: flex;
+    align-items: center;
+  }
+  
+  header h1 {
+    color: #800606;
+    font-size: 1.8rem;
+    letter-spacing: -0.5px;
+  }
+  
+  section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  section div p {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #4a5568;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+  }
+  
+  thead {
+    background-color: #800606;
+  }
+  
+  th {
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.95rem;
+    color: #4a5568;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  tbody tr {
+    transition: background-color 0.2s ease;
+  }
+  
+  tbody tr:hover {
+    background-color: #f8fafc;
+  }
+  
+  td:last-child {
+    font-weight: 600;
+    color: #800606;
+    cursor: pointer;
+  }
+  
+  td:last-child:hover {
+    text-decoration: underline;
+  }
