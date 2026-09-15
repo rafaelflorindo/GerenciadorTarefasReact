@@ -1,0 +1,88 @@
+/* Estilização da seção e cabeçalho */
+section h2 {
+    color: #2d3748;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+  }
+  
+  section p {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: #718096;
+    margin-bottom: 24px;
+  }
+  
+  /* Card do Formulário */
+  .formulario {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+  .formulario form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form Controls */
+  .formulario label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #4a5568;
+    margin-bottom: 6px;
+    margin-top: 16px;
+  }
+  
+  .formulario label:first-of-type {
+    margin-top: 0;
+  }
+  
+  .formulario input[type="text"],
+  .formulario textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    color: #2d3748;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .formulario input[type="text"]:focus,
+  .formulario textarea:focus {
+    outline: none;
+    border-color: #800606;
+    box-shadow: 0 0 0 3px rgba(128, 6, 6, 0.15);
+  }
+  
+  .formulario textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  /* Botão de Enviar */
+  .formulario button[type="submit"] {
+    margin-top: 24px;
+    padding: 12px 20px;
+    background-color: #800606;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+  }
+  
+  .formulario button[type="submit"]:hover {
+    background-color: #600404;
+  }
+  
+  .formulario button[type="submit"]:active {
+    transform: scale(0.98);
+  }

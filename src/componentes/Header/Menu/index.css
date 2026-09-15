@@ -1,10 +1,11 @@
-nav {
-    background-color: #333; 
+.menu-container {
+    background-color: #800606; 
     width: 100%;
     padding: 15px 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-ul {
+.menu-list {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -15,19 +16,20 @@ ul {
     margin: 0;
 }
 
-li {
-    font-size: 18px;
+.menu-item {
+    font-size: 1rem;
+    font-weight: 600;
 }
 
-a {
-    color: #fff; 
+.menu-link {
+    color: #ffffff; 
     text-decoration: none; 
     padding-bottom: 5px; 
     border-bottom: 3px solid transparent; 
     transition: all 0.2s ease-in-out; 
 }
 
-a:hover {
-    color: yellow;
-    border-bottom-color: yellow; 
+.menu-link:hover {
+    color: #f8fafc;
+    border-bottom-color: #ffffff; 
 }

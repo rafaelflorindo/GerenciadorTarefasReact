@@ -6,7 +6,7 @@ import Footer from './componentes/Footer';
 import Home from './paginas/Home'
 import Contato from './paginas/Contato'
 import Sobre from './paginas/Sobre'
-import ListarTarefas from './paginas/Home/ListarTarefas';
+import ListarTarefas from './paginas/ListarTarefas';
 import ListarUmaTarefa from './paginas/ListarUmaTarefa';
 import CadastrarTarefa from './paginas/CadastrarTarefa';
 

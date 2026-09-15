@@ -1,0 +1,61 @@
+/* Container da Seção */
+section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #2d3748;
+  }
+  
+  /* Cabeçalho com borda inferior */
+  header {
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 2px solid #800606;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    color: #800606;
+    font-size: 1.8rem;
+    letter-spacing: -0.5px;
+  }
+  
+  /* Card dos detalhes da tarefa */
+  section > div {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+  }
+  
+  /* Título da tarefa (#id - Título) */
+  section > div h2 {
+    color: #800606;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  
+  /* Responsável */
+  section > div p:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #4a5568;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #edf2f7;
+  }
+  
+  /* Descrição da tarefa */
+  section > div p:nth-of-type(2) {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #2d3748;
+    line-height: 1.6;
+    white-space: pre-line;
+  }
