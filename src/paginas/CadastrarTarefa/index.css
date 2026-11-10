@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 /* Estilização da seção e cabeçalho */
 section h2 {
     color: #2d3748;
@@ -9,7 +13,7 @@ section h2 {
     font-weight: 500;
     font-size: 0.95rem;
     color: #718096;
-    margin-bottom: 24px;
+    
   }
   
   /* Card do Formulário */
@@ -20,6 +24,7 @@ section h2 {
     border: 1px solid #e2e8f0;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     max-width: 600px;
+    margin-bottom: 24px;
   }
   
   .formulario form {
@@ -85,4 +90,20 @@ section h2 {
   
   .formulario button[type="submit"]:active {
     transform: scale(0.98);
+  }
+
+  .error{
+    width: 100%;
+    height: 35px;
+    background-color: #f9a4a4;
+    border: 1px solid #6b2020;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textoError{
+    color: #cbd5e0;
+    font-weight: 700;
   }
